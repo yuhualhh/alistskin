@@ -28,7 +28,7 @@ function flower_html() {
 flower_header_append_code += `<div class="flower_header_self">`; 
 flower_header_append_code += `<h3>羽化云-收集世间万物</h3>`; 
 flower_header_append_code += `<div class="flower_header_self_headimg">`; 
-flower_header_append_code += `<img src="https://gcore.jsdelivr.net/gh/lhz03/img@6cc87720dae332f908dba66e747e7171e7988531/2023/06/26/f937fb8ea009868d2beeea0eca603490.png">`; 
+flower_header_append_code += `<img src="https://gitee.com/yuhualhh/alistskin/raw/master/yuhua.jpg">`; 
 flower_header_append_code += `</div>`; 
 flower_header_append_code += `</div>`; 
 flower_header_append_code += `<div class="flower_header_dictum">`; 
