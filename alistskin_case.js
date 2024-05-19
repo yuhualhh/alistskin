@@ -12,7 +12,7 @@ let flower_header_append_code = '';
 let flower_debug = false;
 
 if (note_true) {
-    var flower_console = ["羽化云","http://pan.oroe.eu.org/"];
+    var flower_console = ["羽化云","http://pan.oroe.cn/"];
     console.log('%c '+flower_console[0]+' %c '+flower_console[1]+' ','padding: 5px 10px; color: #FFF; background-color:#282828; border-radius: 2px 0px 0px 2px;','padding: 5px 10px;color: #FFF; background-image: linear-gradient(to left,#00f2fe,#66ccff); border-radius: 0px 2px 2px 0px;');
 }
 
@@ -28,7 +28,7 @@ function flower_html() {
 flower_header_append_code += `<div class="flower_header_self">`; 
 flower_header_append_code += `<h3>羽化云-收集世间万物</h3>`; 
 flower_header_append_code += `<div class="flower_header_self_headimg">`; 
-flower_header_append_code += `<img src="https://gitee.com/yuhualhh/alistskin/raw/master/yuhua.jpg">`; 
+flower_header_append_code += `<img src="https://cdn.jsdelivr.net/gh/yuhualhh/alistskin@a7e5b883af1a398fa287336289b9655a0b9afdd8/yuhua.jpg">`; 
 flower_header_append_code += `</div>`; 
 flower_header_append_code += `</div>`; 
 flower_header_append_code += `<div class="flower_header_dictum">`; 
@@ -37,7 +37,7 @@ flower_header_append_code += `<h4>羽化</h4>`;
 flower_header_append_code += `</div>`; 
 flower_header_append_code += `<div class="flower_header_nav"><ul>`; 
 flower_header_append_code += `<li><a href="/"  >首页</a></li>`; 
-flower_header_append_code += `<li><a href="http://pan.oroe.eu.org/" target="_blank">羽化云</a></li>`; 
+flower_header_append_code += `<li><a href="http://pan.oroe.cn/" target="_blank">羽化云</a></li>`; 
 flower_header_append_code += `<li><a href="http://blog.oroe.eu.org" target="_blank">羽化’s Blog</a></li>`; 
 flower_header_append_code += `</ul></div>`; 
 flower_header_left.innerHTML = flower_header_append_code; 
@@ -118,7 +118,7 @@ setTimeout(function(){
     console.clear("");
     
     if (note_true) {
-        var flower_console = ["羽化云","http://pan.oroe.eu.org/"];
+        var flower_console = ["羽化云","http://pan.oroe.cn/"];
         console.log('%c '+flower_console[0]+' %c '+flower_console[1]+' ','padding: 5px 10px; color: #FFF; background-color:#282828; border-radius: 2px 0px 0px 2px;','padding: 5px 10px;color: #FFF; background-image: linear-gradient(to left,#00f2fe,#66ccff); border-radius: 0px 2px 2px 0px;');
     }
     
